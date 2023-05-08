@@ -1,0 +1,6 @@
+This was a small yet effective project to practice my javascript skils. 
+I used a simple UI for the html and css as i wanted to focus primarily on the javascript. 
+
+To build the calculator i broke down the applications into smaller more managable pieces which i have outlined with my comments. 
+
+the main javascript features i used for this project were some functions, an if else block, and an event listener
