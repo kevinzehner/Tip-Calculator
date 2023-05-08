@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.calculator {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  color: #4caf50;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+input[type="number"],
+select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+#result {
+  background-color: #eee;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 20px;
+  padding: 10px;
+}
